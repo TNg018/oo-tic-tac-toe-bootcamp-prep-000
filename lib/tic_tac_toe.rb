@@ -88,7 +88,7 @@ def draw?
 end
 
 def winner
-  if win_combination = won?
+  if won?
     @board[win_combination.first]
   end
 end
