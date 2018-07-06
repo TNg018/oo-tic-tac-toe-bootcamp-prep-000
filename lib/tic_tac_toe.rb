@@ -1,4 +1,6 @@
-require_relative './bin/tictactoe'
+require_relative '../bin/tictactoe'
+
+
 class TicTacToe
   WIN_COMBINATIONS = [
     [0,1,2], [3,4,5],
