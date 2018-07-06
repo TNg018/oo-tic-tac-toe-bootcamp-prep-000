@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+require 'pry'
+require_relative '../lib/tic_tac_toe.rb'
+
+puts "Welcome to Tic Tac Toe!"
+TicTacToe.new.play
+
+
+
+
+#https://github.com/avremel/oo-tic-tac-toe-bootcamp-prep-000/blob/27a41ea56f4c705e15dd172d19a6bd9da3fdeb51/lib/tic_tac_toe.rb
